@@ -1,0 +1,24 @@
+<package>
+  <description brief="grid_mapper">
+
+	Utilities for map constructing from laser scans and trajectory
+
+  </description>
+  <author>Stefano Rosa, Luca Carlone</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  
+  <depend package="nav_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="tf" />
+  <depend package="sensor_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="laser_geometry"/>
+  <depend package="bullet"/>
+  <depend package="rospy"/>
+  <depend package="occupancy_grid_utils"/>
+
+  <platform os="ubuntu" version="11.10"/>
+</package>
+
+

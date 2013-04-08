@@ -1,0 +1,27 @@
+<package>
+  <description brief="graph_slam">
+
+     Front-end for graph slam using Andrea Censi's Canonical Scan Matcher implementation.
+     More about CSM: http://www.cds.caltech.edu/~andrea/research/sw/csm.html
+
+  </description>
+  <author>Stefano Rosa, Luca Carlone</author>
+  <license url="http://www.opensource.org/licenses/BSD-3-Clause">BSD</license>
+  <review status="unreviewed" notes=""/>
+  
+  <depend package="roscpp"/>
+  <depend package="tf"/>
+  <depend package="pcl"/>
+  <depend package="pcl_ros"/>
+  <depend package="sensor_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="visualization_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="laser_geometry"/>
+  <depend package="occupancy_grid_utils"/>
+  <depend package="csm"/>
+
+</package>
+
+

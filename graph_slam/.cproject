@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject>
+<storageModule moduleId="org.eclipse.cdt.core.settings">
+<cconfiguration id="org.eclipse.cdt.core.default.config.1">
+<storageModule buildSystemId="org.eclipse.cdt.core.defaultConfigDataProvider" id="org.eclipse.cdt.core.default.config.1" moduleId="org.eclipse.cdt.core.settings" name="Configuration">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser">
+<attribute key="addr2line" value="addr2line"/>
+<attribute key="c++filt" value="c++filt"/>
+</extension>
+</extensions>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+<project-mappings/>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.pathentry">
+<pathentry excluding="**/CMakeFiles/" kind="out" path=""/>
+<pathentry include="/home/morpheus/ros_workspace/labrob-polito-ros-pkg/graph_slam/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/perception_pcl/pcl_ros/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/perception_pcl/pcl_ros/cfg/cpp" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/nodelet_core/nodelet_topic_tools/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/nodelet_core/nodelet/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/nodelet_core/nodelet/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/pluginlib/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/pluginlib" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/bond_core/bondcpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/bond_core/bond/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/bond_core/smclib/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/driver_common/dynamic_reconfigure/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/driver_common/dynamic_reconfigure/msg/cpp" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/driver_common/dynamic_reconfigure/srv/cpp" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/driver_common/dynamic_reconfigure/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/driver_common/dynamic_reconfigure/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/perception_pcl/pcl/include/pcl-1.1" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/vtk-5.6" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/mpi" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/tcl8.5" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/python2.7" kind="inc" path="" system="true"/>
+<pathentry include="/usr/lib/jvm/default-java/include" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/libxml2" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/freetype2" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/perception_pcl/pcl/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/perception_pcl/cminpack/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/perception_pcl/flann/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/occupancy_grid_utils/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/occupancy_grid_utils/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/laser_pipeline/laser_geometry/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/geometry/tf/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/geometry/tf/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/geometry/tf/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/common_msgs/sensor_msgs/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/common_msgs/sensor_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/common_msgs/sensor_msgs/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/ros_comm/utilities/message_filters/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/geometry/angles/include" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/eigen3" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/navigation/map_server/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/common_msgs/nav_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/common_msgs/nav_msgs/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/bullet/include" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/yaml-cpp" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/common_msgs/geometry_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/ros_comm/tools/rosbag/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/ros_comm/tools/topic_tools/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/ros_comm/tools/topic_tools/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/ros_comm/tools/rostest/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp_serialization/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp_traits/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/ros_comm/utilities/xmlrpcpp/src" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/ros_comm/messages/rosgraph_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/ros_comm/messages/std_msgs/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/ros_comm/messages/std_msgs/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/ros/core/roslib/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/ros/core/roslib/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/ros/tools/rospack" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/ros/tools/rospack/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/ros_comm/tools/rosconsole/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/ros_comm/utilities/rostime/include" kind="inc" path="" system="true"/>
+<pathentry include="/opt/ros/electric/stacks/ros_comm/utilities/cpp_common/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/morpheus/ros_workspace/labrob-polito-ros-pkg/graph_slam/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/cairo" kind="inc" path="" system="true"/>
+<pathentry include="/home/morpheus/ros_workspace/scan_tools/csm/include" kind="inc" path="" system="true"/>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+<buildTargets>
+<target name=": ROSBUILD_genmsg_cpp" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ROSBUILD_genmsg_cpp</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": ROSBUILD_genmsg_lisp" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ROSBUILD_genmsg_lisp</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": ROSBUILD_genmsg_py" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ROSBUILD_genmsg_py</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": ROSBUILD_gensrv_cpp" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ROSBUILD_gensrv_cpp</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": ROSBUILD_gensrv_lisp" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ROSBUILD_gensrv_lisp</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean-test-results" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clean-test-results</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[lib] graph_slam" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>graph_slam</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[lib] graph_slam/fast" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>graph_slam/fast</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[exe] graph_slam_node" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>graph_slam_node</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[exe] graph_slam_node/fast" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>graph_slam_node/fast</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": rebuild_cache" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>rebuild_cache</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": rosbuild_precompile" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>rosbuild_precompile</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": rosbuild_premsgsrvgen" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>rosbuild_premsgsrvgen</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": rospack_genmsg" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>rospack_genmsg</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": rospack_genmsg_all" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>rospack_genmsg_all</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": rospack_genmsg_libexe" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>rospack_genmsg_libexe</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": rospack_gensrv" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>rospack_gensrv</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": test" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>test</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": test-future" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>test-future</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": test-results" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>test-results</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": test-results-run" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>test-results-run</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": tests" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>tests</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": all" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>all</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clean</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/graph_slam.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>src/graph_slam.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/graph_slam.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>src/graph_slam.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/graph_slam.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>src/graph_slam.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] src/graph_slam_node.o" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>src/graph_slam_node.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] src/graph_slam_node.i" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>src/graph_slam_node.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] src/graph_slam_node.s" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>src/graph_slam_node.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+</buildTargets>
+</storageModule>
+<storageModule moduleId="scannerConfiguration">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="/usr/bin/gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="/usr/bin/make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+</storageModule>
+</cconfiguration>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<project id="graph_slam.null.1" name="graph_slam"/>
+</storageModule>
+</cproject>
