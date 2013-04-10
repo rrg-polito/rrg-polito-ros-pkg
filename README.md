@@ -1,4 +1,46 @@
-rrg-polito-ros-pkg
-==================
+**********************
+* rrg-polito-ros-pkg *
+**********************
 
 ROS Stack for Robotics Research Group of Politecnico di Torino
+
+**********************
+* Notes and Warnings *
+**********************
+Currently our code was compiled and tested on the following platforms:
+ * Ubuntu 11.04 LTS - 32bits
+ * Ubuntu 12.04 LTS - 32bits
+
+Using ROS Electric: ros.org/wiki/electric
+but it should run on newer ROS versions with small modifications.
+
+This library is a research-level software which is still in development.
+
+****************
+* Installation *
+****************
+1. Install dependencies
+ $ sudo apt-get install ros-electric-occupancy-grid-utils ros-electric-laser-drivers
+ $ git clone https://github.com/ccny-ros-pkg/scan_tools.git
+ $ rosmake csm
+
+2. Compile and install LAGO optimizer (if needed). An installation of the CSparse library 
+   (http://www.cise.ufl.edu/research/sparse/CSparse/CSparse.tar.gz) is needed.
+ $ git clone https://github.com/rrg-polito/lago.git
+ $ cd lago/graphSLAM_sc_fast
+ $ make
+ $ sudo cp graphSLAM_sc /usr/bin/
+
+3. Download and compile ROS packages
+ $ git clone https://github.com/rrg-polito/rrg-polito-ros-pkg.git
+ $ rosmake graph_slam
+ $ rosmake grid_mapper 
+
+**************
+* How to use *
+**************
+For running graph slam:
+
+1. rosrun graph_slam graph_slam_node (see source code for options)
+ 
+2. rosrun grid_mapper grid_construction_node
