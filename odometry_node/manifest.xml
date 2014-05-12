@@ -1,0 +1,17 @@
+<package>
+  <description brief="odometry_node">
+
+     odometry_node
+
+  </description>
+  <author>p3dx</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/odometry_node</url>
+  <depend package="nav_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="tf"/>
+
+</package>
+
+
