@@ -34,12 +34,15 @@ This library is a research-level software which is still in development.
 3. Download and compile ROS packages
  $ git clone https://github.com/rrg-polito/rrg-polito-ros-pkg.git
  $ rosmake graph_slam
- $ rosmake grid_mapper 
+ $ rosmake grid_mapper
+ $ (optional) rosmake odometry_node 
 
 **************
 * How to use *
 **************
 For running graph slam:
+
+0. (optional) rosrun odometry_node odometry_node (for odometry correction using gyros)
 
 1. rosrun graph_slam graph_slam_node (see source code for options)
  
